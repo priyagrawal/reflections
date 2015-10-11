@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 - creates a new git repository
 - makes all files in that dir as untracked files.
 - create my own repository to make use of version control on my files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- git diff tells diff between working dir and staging area
+- git diff --staged gives diff between staging area and latest commit.
+- git add <file name>  - adds file to the staging area
+-git commit - commits changes to the repository
