@@ -10,3 +10,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 - git diff --staged gives diff between staging area and latest commit.
 - git add <file name>  - adds file to the staging area
 -git commit - commits changes to the repository
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- doing experimental changes to code
+- adding new feature to your project but still keeping a working copy of the project
