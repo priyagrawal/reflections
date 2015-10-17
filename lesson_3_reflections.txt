@@ -14,3 +14,5 @@ Why might you want to always pull changes manually rather than having Git automa
   - forks - makes a copy of a repository from one git hub account to another.
   - clones - copies a repository from git hub to a local machine
   - branches - creates a new branch in the exiting repository
+  What is the benefit of having a copy of the last known state of the remote stored locally?
+  - When pushing to the github, in case of multiple collaboraters/work machines, the local git can identify that there might be a merge commit required and it also helps in finding merge conflicts.
