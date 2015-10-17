@@ -22,3 +22,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   -  By keeping local copies on a common machine, would have to always make a copy before making changes. 
   - merging two parallel changes would be extremely difficult unless some other form of version control is used such as SVN.
   - Only thing better would be that internet access might not be required, I could easily keep the code private and secure by keeping on a local server/machine instead of using a git hub server.
+
+ When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+ 
+	- When we are making a change for which we want to notify other collaborators
+	- we want get a feedback/review on out work from fellow collaborators.
+	- when working on a new/test feature. this way the master would still have the last working copy of  the work.
