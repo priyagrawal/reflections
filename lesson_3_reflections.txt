@@ -9,10 +9,16 @@ Why might you want to always pull changes manually rather than having Git automa
  
  - When I working on a feature, and have not completed it , and some one else adds there code to the branch , an automatic pull would merge all the changes which could not just break my code, but also cause a lot of confusion and difficulty and resolving merges and fixing every thing.
  
- Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
  
   - forks - makes a copy of a repository from one git hub account to another.
   - clones - copies a repository from git hub to a local machine
   - branches - creates a new branch in the exiting repository
-  What is the benefit of having a copy of the last known state of the remote stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
   - When pushing to the github, in case of multiple collaboraters/work machines, the local git can identify that there might be a merge commit required and it also helps in finding merge conflicts.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  
+  -  By keeping local copies on a common machine, would have to always make a copy before making changes. 
+  - merging two parallel changes would be extremely difficult unless some other form of version control is used such as SVN.
+  - Only thing better would be that internet access might not be required, I could easily keep the code private and secure by keeping on a local server/machine instead of using a git hub server.
